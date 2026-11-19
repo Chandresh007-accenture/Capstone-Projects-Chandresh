@@ -22,7 +22,7 @@ resource "aws_vpc" "webserver_vpc" {
   enable_dns_hostnames = true
 
   tags = {
-    Name        = "${var.project_name}-vpc"
+    Name        = "${var.project_name}-vpc-Chandresh"
     Owner       = "Chandresh Kumar"
     Environment = "Assessment"
   }
@@ -36,7 +36,7 @@ resource "aws_subnet" "public_subnet" {
   map_public_ip_on_launch = true
 
   tags = {
-    Name  = "${var.project_name}-public-subnet"
+    Name  = "${var.project_name}-public-subnet-Chandresh"
     Owner = "Chandresh Kumar"
   }
 }
@@ -46,7 +46,7 @@ resource "aws_internet_gateway" "webserver_igw" {
   vpc_id = aws_vpc.webserver_vpc.id
 
   tags = {
-    Name  = "${var.project_name}-igw"
+    Name  = "${var.project_name}-igw-Chandresh"
     Owner = "Chandresh Kumar"
   }
 }
@@ -61,7 +61,7 @@ resource "aws_route_table" "public_rt" {
   }
 
   tags = {
-    Name  = "${var.project_name}-public-rt"
+    Name  = "${var.project_name}-public-rt-Chandresh"
     Owner = "Chandresh Kumar"
   }
 }
@@ -96,7 +96,7 @@ resource "aws_security_group" "webserver_sg" {
   }
 
   tags = {
-    Name  = "${var.project_name}-sg"
+    Name  = "${var.project_name}-sg-Chandresh"
     Owner = "Chandresh Kumar"
   }
 }
@@ -118,7 +118,7 @@ resource "aws_instance" "webserver" {
   }
 
   tags = {
-    Name        = "${var.project_name}-ec2"
+    Name        = "${var.project_name}-ec2-Chandresh"
     Owner       = "Chandresh Kumar"
     Environment = "Assessment"
   }
