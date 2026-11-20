@@ -54,7 +54,43 @@ terraform apply
 The IAM policy grants S3 read and list permissions only.
 
 
-## Project Owner
+## Screenshots and Test Evidence
 
-Chandresh Kumar
+The following screenshots demonstrate the successful implementation and verification of this project.
+
+### 1. Terraform Execution Plan
+
+[View Terraform Plan](screenshots/Project%204%20-%2001-terraform-plan.png)
+
+### 2. Terraform Deployment Success
+
+[View Terraform Apply Success](screenshots/Project%204%20-%2002-terraform-apply-success.png)
+
+### 3. IAM User Creation and Policy Attachment
+
+[View IAM User](screenshots/Project%204%20-%2003-IAM-User.png)
+
+### 4. IAM User Tags
+
+[View IAM User Tags](screenshots/Project%204%20-%2004-IAM-User-Tags.png)
+
+### 5. S3 Read-Only IAM Policy
+
+[View S3 Read-Only Policy](screenshots/Project%204%20-%2005-S3-Read-Only-Policy.png)
+
+---
+
+## Project Completion
+
+- [x] Terraform configuration created.
+- [x] IAM user created successfully.
+- [x] Custom S3 read-only policy created.
+- [x] Policy attached to IAM user.
+- [x] Terraform validation successful.
+- [x] AWS resources verified.
+- [x] Test evidence captured.
+- [x] GitHub repository updated.
+
+**Project Owner:** 
+  Chandresh Kumar
 
