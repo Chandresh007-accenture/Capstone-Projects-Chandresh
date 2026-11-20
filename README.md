@@ -78,18 +78,18 @@ The following screenshots demonstrate the successful implementation and verifica
 
 [View S3 Read-Only Policy](screenshots/Project%204%20-%2005-S3-Read-Only-Policy.png)
 
----
 
-## Project Completion
 
-- [x] Terraform configuration created.
-- [x] IAM user created successfully.
-- [x] Custom S3 read-only policy created.
-- [x] Policy attached to IAM user.
-- [x] Terraform validation successful.
-- [x] AWS resources verified.
-- [x] Test evidence captured.
-- [x] GitHub repository updated.
+
+-----
+
+
+
+
+
+
+
+ 
 
 **Project Owner:** 
   Chandresh Kumar
