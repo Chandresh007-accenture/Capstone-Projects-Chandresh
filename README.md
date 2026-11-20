@@ -76,15 +76,15 @@ The administrator can read both project files. The developer can read only the d
 
 All five access tests produced the expected results.
 
-## 10. Screenshots
+## 10. Screenshots and Evidence
 
-Project evidence is stored in the `screenshots/` directory.
+All project screenshots are available below:
 
-1. Linux users and groups
-2. Secure directory permissions and ACL
-3. File permissions
-4. Developer access tests
-5. Administrator access tests
+1. [Linux Users and Groups](screenshots/01-linux-users-and-groups.png)
+2. [Secure Directory Permissions and ACL](screenshots/02-secure-directory-permissions.png)
+3. [File Permissions](screenshots/03-file-permissions.png)
+4. [Developer Access Tests](screenshots/04-developer-access-tests.png)
+5. [Administrator Access Tests](screenshots/05-admin-access-tests.png)
 
 ## 11. Cleanup
 
