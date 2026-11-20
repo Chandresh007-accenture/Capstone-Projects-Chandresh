@@ -7,5 +7,7 @@ resource "terraform_data" "project" {
     project_name = "terraform-version-control-Chandresh"
     owner        = "Chandresh Kumar"
     environment  = "development"
+    purpose      = "Git Pull Request demonstration"
+    version      = "2.0"
   }
 }
