@@ -80,11 +80,11 @@ All five access tests produced the expected results.
 
 All project screenshots are available below:
 
-1. [Linux Users and Groups](screenshots/01-linux-users-and-groups.png)
-2. [Secure Directory Permissions and ACL](screenshots/02-secure-directory-permissions.png)
-3. [File Permissions](screenshots/03-file-permissions.png)
-4. [Developer Access Tests](screenshots/04-developer-access-tests.png)
-5. [Administrator Access Tests](screenshots/05-admin-access-tests.png)
+1. [Linux Users and Groups](Screenshot/Project%205%20-%2001-linux-users-and-groups.png)
+2. [Secure Directory Permissions and ACL](Screenshot/Project%205%2002-secure-directory-permissions.png)
+3. [File Permissions](Screenshot/Project%205%2003-file-permissions.png)
+4. [Developer Access Tests](Screenshot/Project%205%2004-developer-access-tests.png)
+5. [Administrator Access Tests](Screenshot/Project%205%2005-admin-access-tests.png)
 
 ## 11. Cleanup
 
