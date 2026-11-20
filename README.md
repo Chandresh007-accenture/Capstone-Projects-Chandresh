@@ -25,13 +25,7 @@ This project uses Terraform's built-in `terraform_data` resource. No AWS resourc
 6. Created a Pull Request.
 7. Merged the Pull Request into the main branch.
 
-## Validation
-The following commands completed successfully:
-
-```bash
-terraform fmt
-terraform validate
 
 ## Author
 **Name:** Chandresh Kumar  
-**GitHub:** [Chandresh007-accenture](https://github.com/Chandresh007-accenture)
+
