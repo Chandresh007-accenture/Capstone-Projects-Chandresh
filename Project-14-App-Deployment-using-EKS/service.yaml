@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"name":"nginx-service","namespace":"default"},"spec":{"ports":[{"port":80,"targetPort":80}],"selector":{"app":"nginx-app"},"type":"LoadBalancer"}}
+  creationTimestamp: "2026-11-21T08:17:23Z"
+  finalizers:
+  - service.kubernetes.io/load-balancer-cleanup
+  name: nginx-service
+  namespace: default
+  resourceVersion: "3081"
+  uid: 79e07fd7-2dc4-4188-a37a-6bfab2c5bfe5
+spec:
+  allocateLoadBalancerNodePorts: true
+  clusterIP: 10.100.92.125
+  clusterIPs:
+  - 10.100.92.125
+  externalTrafficPolicy: Cluster
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - nodePort: 32312
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: nginx-app
+  sessionAffinity: None
+  type: LoadBalancer
+status:
+  loadBalancer:
+    ingress:
+    - hostname: a79e07fd72dc44188a37a6bfab2c5bfe-886617091.ap-south-1.elb.amazonaws.com
