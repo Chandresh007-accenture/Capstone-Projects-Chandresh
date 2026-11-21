@@ -31,5 +31,5 @@ See [apache-setup.yml](apache-setup.yml).
 ## Verification
 Evidence screenshots will be stored in the `evidence/` directory.
 
-## Owner
-Chandresh
+## Author
+ - Chandresh Kumar
