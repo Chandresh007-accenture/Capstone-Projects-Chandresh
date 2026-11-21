@@ -22,14 +22,8 @@ Automate Apache web server installation and configuration on an Azure Ubuntu VM 
 5. Published the playbook in this GitHub repository.
 6. The controller uses Azure Run Command to invoke Ansible Pull on the managed VM.
 
-## Why Ansible Pull?
-Inbound SSH is not opened. Azure Run Command invokes `ansible-pull` through the Azure management plane. The managed VM fetches the playbook from GitHub and executes it locally.
-
 ## Playbook
 See [apache-setup.yml](apache-setup.yml).
-
-## Verification
-Evidence screenshots will be stored in the `evidence/` directory.
 
 ## Author
  - Chandresh Kumar
