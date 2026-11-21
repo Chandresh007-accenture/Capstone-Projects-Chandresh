@@ -78,5 +78,5 @@ Successfully built the Docker image and pushed it to the Amazon ECR repository w
 
 The ECR image verification confirmed that the image status is **ACTIVE**.
 
-# Author
-- Chandresh Kumar
+**Author:** Chandresh Kumar
+
