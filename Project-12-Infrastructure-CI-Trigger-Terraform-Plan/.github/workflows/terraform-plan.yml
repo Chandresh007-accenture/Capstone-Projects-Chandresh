@@ -8,14 +8,14 @@ on:
       - 'feature/Project-12-Infrastructure-CI-Trigger-Terraform-Plan'
     paths:
       - 'Project-12-Infrastructure-CI-Trigger-Terraform-Plan/**'
-      - '.github/workflows/terraform-plan.yml'
+      - 'Project-12-Infrastructure-CI-Trigger-Terraform-Plan/.github/workflows/terraform-plan.yml'
 
   pull_request:
     branches:
       - main
     paths:
       - 'Project-12-Infrastructure-CI-Trigger-Terraform-Plan/**'
-      - '.github/workflows/terraform-plan.yml'
+      - 'Project-12-Infrastructure-CI-Trigger-Terraform-Plan/.github/workflows/terraform-plan.yml'
 
 jobs:
   terraform-plan:
