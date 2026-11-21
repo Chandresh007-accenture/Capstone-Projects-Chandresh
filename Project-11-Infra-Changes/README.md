@@ -16,5 +16,4 @@ Demonstrate GitHub branching strategy by creating a feature branch and merging c
 ## Evidence
 Pull Request screenshots will be added here.
 
-## Repository
-Capstone-Projects-Chandresh
+
