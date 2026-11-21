@@ -80,3 +80,6 @@ The NGINX application was successfully deployed with two running replicas and ex
 
 ## Cleanup
 After capturing the required evidence and pushing the project to GitHub, delete only the NGINX Service and Deployment created for this project. Do not delete the shared EKS cluster or its worker node.
+
+**Author**
+ - Chandresh Kumar
