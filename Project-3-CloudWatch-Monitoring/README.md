@@ -71,20 +71,13 @@ Install and configure:
 
 Configure AWS credentials using a secure method.
 
-### 2. Clone the repository
-
-```bash
-git clone https://github.com/Chandresh007-accenture/cloudwatch-monitoring-Chandresh.git
-cd cloudwatch-monitoring-Chandresh
-```
-
-### 3. Initialize Terraform
+### 2. Initialize Terraform
 
 ```bash
 terraform init
 ```
 
-### 4. Configure variables
+### 3. Configure variables
 
 Create your local variable file:
 
@@ -94,19 +87,19 @@ cp terraform.tfvars.example terraform.tfvars
 
 Update the values in `terraform.tfvars` for your AWS environment.
 
-### 5. Validate the configuration
+### 4. Validate the configuration
 
 ```bash
 terraform validate
 ```
 
-### 6. Review the deployment plan
+### 5. Review the deployment plan
 
 ```bash
 terraform plan
 ```
 
-### 7. Deploy the infrastructure
+### 6. Deploy the infrastructure
 
 ```bash
 terraform apply
@@ -114,7 +107,7 @@ terraform apply
 
 Review the plan and confirm before applying.
 
-### 8. View Terraform outputs
+### 7. View Terraform outputs
 
 ```bash
 terraform output
@@ -142,6 +135,6 @@ Review the resources before confirming destruction.
 
 **Important:** This project reuses an existing VPC and subnet. Terraform cleanup should remove only the resources managed by this project, not shared networking infrastructure.
 
-## Author
+## Author ##
 
-**Chandresh Kumar**
+ - Chandresh Kumar
