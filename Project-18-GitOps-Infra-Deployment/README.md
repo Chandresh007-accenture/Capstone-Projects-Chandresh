@@ -36,3 +36,5 @@ This project uses Terraform's `terraform_data` resource as a demonstration. It d
 ## Workflow Test
 This change is used to test the GitOps pull request workflow.
 
+**Author**
+- Chandresh Kumar
