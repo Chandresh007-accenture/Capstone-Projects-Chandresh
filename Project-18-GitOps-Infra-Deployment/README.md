@@ -18,6 +18,10 @@ The GitHub Actions workflow performs the following steps:
 6. Waits for approval through the GitHub `production` environment.
 7. Downloads the saved plan and applies it.
 
+## Files
+- `main.tf` – Terraform demo configuration.
+- `.github/workflows/gitops-deploy.yml` – GitHub Actions deployment workflow.
+- `Screenshot/` – Folder for implementation evidence.
 
 ## Approval Setup
 In GitHub:
@@ -28,6 +32,9 @@ In GitHub:
 
 ## Safety
 This project uses Terraform's `terraform_data` resource as a demonstration. It does not create AWS infrastructure.
+
+## Workflow Test
+This change is used to test the GitOps pull request workflow.
 
 **Author**
 - Chandresh Kumar
