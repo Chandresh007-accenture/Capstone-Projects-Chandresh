@@ -32,3 +32,7 @@ In GitHub:
 
 ## Safety
 This project uses Terraform's `terraform_data` resource as a demonstration. It does not create AWS infrastructure.
+
+## Workflow Test
+This change is used to test the GitOps pull request workflow.
+
