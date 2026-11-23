@@ -5,8 +5,8 @@ Automate log backups to Amazon S3 using a Linux cron job.
 
 ## AWS Configuration
 - AWS Region: ap-south-1 (Mumbai)
-- S3 Bucket: chandresh-project19-scheduled-backup-590507089733-20261123
-- S3 Backup Location: s3://chandresh-project19-scheduled-backup-590507089733-20261123/backups/
+- S3 Bucket: chandresh-project19-scheduled-backup-59050..............123
+- S3 Backup Location: s3://chandresh-project19-scheduled-backup-590................1123/backups/
 
 ## Project Tasks
 
@@ -27,7 +27,7 @@ Verified that the cron service was active and that automatic uploads succeeded.
 
 Listed the S3 backup files using:
 
-`aws s3 ls s3://chandresh-project19-scheduled-backup-590507089733-20261123/backups/`
+`aws s3 ls s3://chandresh-project19-scheduled-backup-59050............3/backups/`
 
 ## Result
 Successfully tested manual and scheduled log uploads to Amazon S3.
@@ -38,5 +38,5 @@ Successfully tested manual and scheduled log uploads to Amazon S3.
 - Amazon S3
 - Cron
 
-## Author
-Chandresh Kumar
+## Author 
+- Chandresh Kumar
