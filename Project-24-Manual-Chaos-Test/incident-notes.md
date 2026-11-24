@@ -1,7 +1,6 @@
 # Incident Notes – Project 24
 
 **Project:** Manual Chaos Test
-**Author:** Chandresh Kumar
 **Service:** Apache2
 
 ## 1. Incident Description
