@@ -1,6 +1,6 @@
 # Project 24 – Manual Chaos Test
 
-**Created by:** Chandresh Kumar
+
 
 ## Objective
 To perform a manual chaos test by intentionally stopping the Apache web server and verifying successful recovery.
@@ -28,7 +28,7 @@ The service returned to active (running).
 ## Result
 The manual chaos test was completed successfully. Apache was intentionally stopped and successfully recovered through a manual restart.
 
-## Screenshots
-See the screenshots folder for evidence of the failure simulation and recovery.
 
-**Author:** Chandresh Kumar
+
+**Author:** 
+- Chandresh Kumar
