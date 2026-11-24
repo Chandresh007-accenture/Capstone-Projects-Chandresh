@@ -1,7 +1,5 @@
 # Project 5: Secure Linux Server Permissions
 
-**Project Owner:** Chandresh Kumar
-
 ## 1. Project Overview
 
 This project demonstrates user-based access restrictions on an Ubuntu Linux server using Linux users, groups, file permissions, ownership, and Access Control Lists (ACLs).
@@ -76,15 +74,6 @@ The administrator can read both project files. The developer can read only the d
 
 All five access tests produced the expected results.
 
-## 10. Screenshots and Evidence
-
-All project screenshots are available below:
-
-1. [Linux Users and Groups](Screenshot/Project%205%20-%2001-linux-users-and-groups.png)
-2. [Secure Directory Permissions and ACL](Screenshot/Project%205%2002-secure-directory-permissions.png)
-3. [File Permissions](Screenshot/Project%205%2003-file-permissions.png)
-4. [Developer Access Tests](Screenshot/Project%205%2004-developer-access-tests.png)
-5. [Administrator Access Tests](Screenshot/Project%205%2005-admin-access-tests.png)
 
 ## 11. Cleanup
 
@@ -92,4 +81,5 @@ After submission, project-created users, groups, files, directories, and ACL ent
 
 ---
 
-**Project Owner: Chandresh Kumar**
+**Author**
+- Chandresh Kumar
